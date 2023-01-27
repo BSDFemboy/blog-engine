@@ -1,0 +1,51 @@
+body {
+    background: rgb(0, 0, 0);
+    color: #fff;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.th1 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    color: #fff;
+    border-color: #fff;
+}
+
+.fhr {
+    width: 50%;
+}
+
+.red {
+    color: red;
+}
+
+.postlist {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.search {
+    transition: 750ms;
+    outline: 0;
+    border: 2px solid darkslategray;
+    border-radius: 3px;
+}
+
+.search:focus {
+    box-shadow: white 0px 0px 8px;
+}
+
+.int {
+    align-items: center;
+    text-align: center;
+}
