@@ -1,0 +1,108 @@
+body {
+	vertical-align: middle;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: sans-serif;
+	height: 100vh;
+}
+
+.title {
+	text-align: center;
+	position: sticky;
+	height: 60px;
+	top: 0;
+	background-color: white;
+}
+
+.mtitle {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	max-width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	color: blue;
+}
+
+.pinned {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.posts {
+	background: #f6f6f6;
+}
+
+.posts a {
+	color: purple;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	display: block;
+	transition: 300ms;
+}
+
+.posts a:hover {
+	color: blue;
+	box-shadow: blue 0px 0px 4px;
+}
+
+.column-holder {
+	padding: 5%;
+	margin-top: 150px;
+	text-align: center;
+	align-items: center;
+	vertical-align: middle;
+	justify-content: center;
+	border: 1px solid;
+}
+
+.column-holder:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column {
+  width: 33.33%;
+  height: 400px;
+  float: left;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+a:active {
+	color: blue;
+}
+
+.srch {
+	text-align:center;
+	align-items: center;
+	justify-content: center;
+	margin-top 10px;
+}
+
+#searcher {
+	text-align: center;
+	font-size: 24px;
+	padding: 4px 4px 4px 4px;
+}
+
+#list {
+	list-style-type: none;
+	text-align: center;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+.license {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	vertical-align: middle;
+}

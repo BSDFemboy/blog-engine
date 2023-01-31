@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>viiiweb</title>
+		<link>https://viiiweb.art</link>
+		<description>changelog</description>
+		<item>
+			<title>31/01/2023 Updates</title>
+			<pubDate>31/01/2023</pubDate>
+			<description>
+				New website launched! Moved from apache2 to nginx, new layout, IRC in the works.
+				Free to use this website as a template for your own blog.
+			</description>
+		</item>
+	</channel
+</rss>
